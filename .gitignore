@@ -1,2 +1,29 @@
 react_example_theme/js/dist_dev
 react_example_theme/node_modules
+
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+react-decoupled/node_modules
+react-decoupled/.pnp
+react-decoupled/.pnp.js
+
+# testing
+react-decoupled/coverage
+
+# production
+react-decoupled/build
+
+# misc
+react-decoupled/.DS_Store
+react-decoupled/.env.local
+react-decoupled/.env.development.local
+react-decoupled/.env.test.local
+react-decoupled/.env.production.local
+
+react-decoupled/npm-debug.log*
+react-decoupled/yarn-debug.log*
+react-decoupled/yarn-error.log*
